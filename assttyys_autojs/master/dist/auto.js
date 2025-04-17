@@ -20215,7 +20215,6 @@ var Func002 = /** @class */ (function () {
                         [center, 922, 379, 0x88653c],
                         [center, 364, 372, 0x8d693f],
                         [center, 671, 192, 0xeadca5],
-                        [center, 863, 388, 0xbaa289],
                     ]
                 ],
                 oper: [
