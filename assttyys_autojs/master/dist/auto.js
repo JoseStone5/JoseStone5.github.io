@@ -20206,8 +20206,22 @@ var Func002 = /** @class */ (function () {
                     [center, 1280, 720, 727, 484, 859, 535, 1000],
                 ]
             }, {
-                // 25 喂猫狗后的奖励
-                desc: [1280, 720,
+                desc: [
+                    1280, 720,
+                    [
+                        [center, 470, 77, 0x544e60],
+                        [center, 452, 120, 0x595063],
+                        [center, 495, 120, 0x575062],
+                        [center, 736, 102, 0xc3bdaf],
+                        [center, 918, 112, 0xada596],
+                    ]
+                ],
+                oper: [
+                    [center, 1280, 720, 1110, 362, 1222, 493, 1000],
+                ]
+            }, {
+                desc: [
+                    1280, 720,
                     [
                         [center, 379, 194, 0x38291d],
                         [center, 897, 195, 0x382a1d],
@@ -20287,6 +20301,7 @@ var Func002 = /** @class */ (function () {
                 thisOperator[12], thisOperator[13], thisOperator[14], thisOperator[15],
                 thisOperator[16], thisOperator[17], thisOperator[22], thisOperator[18],
                 thisOperator[21], thisOperator[23], thisOperator[24], thisOperator[25],
+                thisOperator[26],
             ]
         });
     };
@@ -20715,7 +20730,7 @@ var Func005 = /** @class */ (function () {
         this.operator = [{
                 desc: [1280, 720,
                     [
-                        [left, 43, 37, 0xf5e6a8],
+                        [left, 42, 38, 0xf7eaac],
                         [right, 1177, 667, 0xd8b871],
                         [right, 1187, 679, 0xcda35d],
                         [right, 1188, 609, 0xf1e096],
@@ -23483,6 +23498,20 @@ var Func024 = /** @class */ (function () {
                 ],
                 oper: [
                     [center, 1280, 720, 1042, 176, 1187, 585, 500],
+                ]
+            }, {
+                desc: [1280, 720,
+                    [
+                        [center, 1178, 71, 0xe9d3cf],
+                        [center, 1186, 65, 0x7d3556],
+                        [center, 1197, 89, 0xe8d3ce],
+                        [center, 1187, 613, 0xebd993],
+                        [center, 1202, 605, 0x1b140f],
+                        [center, 1177, 653, 0xdec26f],
+                    ]
+                ],
+                oper: [
+                    [center, 1280, 720, 1176, 68, 1199, 93, 1000],
                 ]
             }];
     }
