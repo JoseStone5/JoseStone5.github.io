@@ -12442,10 +12442,7 @@ var multiDetectColors = {
             [
                 [multiDetectColors_left, 172, 657, 0x97bae0],
                 [multiDetectColors_left, 187, 668, 0xf7e624],
-                [multiDetectColors_left, 339, 668, 0xf7e525],
-                [multiDetectColors_center, 268, 177, 0x52422c],
-                [multiDetectColors_center, 363, 177, 0x5e492c],
-                [multiDetectColors_center, 270, 269, 0x604938]
+                [multiDetectColors_left, 339, 668, 0xf7e525]
             ]
         ]
     },
