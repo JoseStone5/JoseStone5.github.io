@@ -12804,6 +12804,19 @@ var multiDetectColors = {
                 [multiDetectColors_right, 1216, 26, 0xd4ae84],
             ]
         ]
+    },
+    '活动右下角式神录': {
+        desc: [
+            1280, 720,
+            [
+                [multiDetectColors_right, 1035, 562, 0x251f14],
+                [multiDetectColors_right, 1027, 577, 0xebe7b2],
+                [multiDetectColors_right, 1042, 578, 0xeeeac2],
+                [multiDetectColors_right, 1015, 593, 0x6a4f2a],
+                [multiDetectColors_right, 1057, 583, 0x574326],
+                [multiDetectColors_right, 1027, 604, 0xa17538],
+            ]
+        ]
     }
 };
 /* harmony default export */ const common_multiDetectColors = (multiDetectColors);
@@ -58060,44 +58073,16 @@ var Func312 = /** @class */ (function () {
                 oper: [
                     [center, 1280, 720, 1065, 252, 1151, 425, 1000],
                 ]
-            }, {
-                desc: [
-                    1280, 720,
-                    [
-                        [right, 1245, 22, 0x654339],
-                        [right, 1244, 58, 0x5b433a],
-                        [right, 1240, 58, 0x6a4b3f],
-                        [right, 1240, 22, 0x6a473b],
-                    ]
-                ],
-            }, {
-                desc: [
-                    1280, 720,
-                    [
-                        [right, 1228, 33, 0xefd8c0],
-                        [right, 1224, 33, 0x453834],
-                        [right, 1232, 33, 0x3e3630],
-                        [right, 1228, 40, 0xcec39d],
-                        [right, 1221, 40, 0xd1baa3],
-                        [right, 1234, 40, 0xc8ac96],
-                        [right, 1223, 45, 0x544741],
-                        [right, 1228, 45, 0xaea383],
-                        [right, 1234, 45, 0x5d4c44],
-                    ]
-                ],
             }];
     }
     Func312.prototype.operatorFunc = function (thisScript, thisOperator) {
         var thisConf = thisScript.scheme.config['312'];
         var curCnt = 0;
         var maxCount = 5;
-        while ((thisScript.findMultiColor('活动说明的感叹号') || thisScript.findMultiColor('体力图标') ||
-            thisScript.findMultiColor('右下角锁定阵容') ||
-            thisScript.oper({
-                id: 312,
-                name: '磐长故地右上',
-                operator: [thisOperator[3]]
-            }))) {
+        while ((thisScript.findMultiColor('活动右下角式神录') ||
+            thisScript.findMultiColor('活动说明的感叹号') ||
+            thisScript.findMultiColor('体力图标') ||
+            thisScript.findMultiColor('右下角锁定阵容'))) {
             curCnt++;
             if (curCnt >= maxCount) {
                 thisScript.myToast("\u8FDE\u7EED\u6267\u884C".concat(maxCount, "\u6B21\u6311\u6218\u540E\u672A\u5F00\u59CB\uFF0C\u811A\u672C\u81EA\u52A8\u505C\u6B62"));
