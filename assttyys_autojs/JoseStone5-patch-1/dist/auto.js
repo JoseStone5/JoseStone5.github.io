@@ -58085,6 +58085,7 @@ var Func312 = /** @class */ (function () {
                         [right, 1234, 45, 0x5d4c44],
                     ]
                 ],
+                oper: [],
             }];
     }
     Func312.prototype.operatorFunc = function (thisScript, thisOperator) {
