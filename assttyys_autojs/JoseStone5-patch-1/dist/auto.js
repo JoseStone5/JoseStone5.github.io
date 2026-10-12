@@ -58092,7 +58092,12 @@ var Func312 = /** @class */ (function () {
         var curCnt = 0;
         var maxCount = 5;
         while ((thisScript.findMultiColor('活动说明的感叹号') || thisScript.findMultiColor('体力图标') ||
-            thisScript.findMultiColor('右下角锁定阵容'))) {
+            thisScript.findMultiColor('右下角锁定阵容') ||
+            thisScript.oper({
+                id: 312,
+                name: '磐长故地右上',
+                operator: [thisOperator[3]]
+            }))) {
             curCnt++;
             if (curCnt >= maxCount) {
                 thisScript.myToast("\u8FDE\u7EED\u6267\u884C".concat(maxCount, "\u6B21\u6311\u6218\u540E\u672A\u5F00\u59CB\uFF0C\u811A\u672C\u81EA\u52A8\u505C\u6B62"));
